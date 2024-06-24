@@ -1,0 +1,34 @@
+.nav-bar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-bar li {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.nav-bar li:last-child {
+  border-right: none;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.nav-bar a:hover {
+  color: #666;
+}
+
+.nav-bar li:hover {
+  background-color: #e0e0e0;
+}
